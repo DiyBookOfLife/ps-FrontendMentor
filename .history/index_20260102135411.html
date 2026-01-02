@@ -22,118 +22,107 @@
     />
 
     <!-- <link rel="stylesheet" href="./styles.css"> -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="h-full">
-    <main
-      class="min-h-screen flex justify-center items-start p-5 bg-[hsl(214,17%,92%)]"
-    >
-      <section
-        class="flex flex-col md:grid grid-cols-4 grid-rows-2 gap-[20px] max-w-[1300px]"
-      >
+  <body>
+    <main>
+      <section class="grid grid-cols-4 grid-rows-2 gap-[20px]">
         <div
-          class="bg-size-[120px] bg-[80%_top] bg-no-repeat bg-[url(./images/bg-pattern-quotation.svg)] col-start-1 col-end-3 bg-[hsl(263,55%,52%)] text-white rounded-2xl p-8 shadow-[12px_12px_2px_1px_rgba(149,149,150,0.2)]"
+          class="col-start-1 col-end-3 bg-[hsl(263,55%,52%)] p-5"
         >
-          <div class="flex items-center">
+          <div class="flex items-center gap-4">
             <img
-              class="border-2 border-purple-500 h-[40px] rounded-full mr-8"
+              class="h-[40px]"
               src="./images/image-daniel.jpg"
               alt="picture of daniel"
             />
+
             <div class="flex flex-col justify-center">
               <div>Daniel Clifford</div>
-              <div class="opacity-50">Verified Graduate</div>
+              <div>Verified Graduate</div>
             </div>
           </div>
 
-          <p class="mt-5">
+          <p>
             I received a job offer mid-course, and the subjects I learned were
             current, if not more so, in the company I joined. I honestly feel I
             got every penny's worth.
           </p>
 
-          <p class="mt-5 opacity-70">
+          <p>
             “ I was an EMT for many years before I joined the bootcamp. I've
             been looking to make a transition and have heard some people who had
-            an amazing experience here. I signed up for the free intro course
-            and found it incredibly fun! I enrolled shortly thereafter. The next
-            12 weeks was the best - and most grueling - time of my life. Since
-            completing the course, I've successfully switched careers, working
-            as a Software Engineer at a VR startup. ”
+            an amazing experience here. ”
           </p>
         </div>
 
-        <div
-          class="bg-[hsl(217,19%,35%)] text-white rounded-2xl p-8 shadow-[12px_12px_2px_1px_rgba(149,149,150,0.2)]"
-        >
-          <div class="flex items-center">
-            <img
-              class="h-[40px] rounded-full mr-8"
-              src="./images/image-jonathan.jpg"
-              alt="picture of jonathan"
-            />
-            <div class="flex flex-col justify-center">
-              <div>Jonathan Walters</div>
-              <div class="opacity-50">Verified Graduate</div>
+        <div class="col-start-3 col-end-4">
+          <div class="col-start-1 col-end-3">
+            <div class="flex items-center">
+              <img
+                class="h-[40px] src="
+                src="/images/image-jonathan.jpg"
+                alt="picture of jonathan"
+              />
+              <div class="flex flex-col justify-center">
+                <div>Jonathan Walters</div>
+                <div>Verified Graduate</div>
+              </div>
             </div>
           </div>
 
-          <p class="mt-5">The team was very supportive and kept me motivated</p>
+          <p>The team was very supportive and kept me motivated</p>
 
-          <p class="mt-5 opacity-70">
+          <p>
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I've made in myself. ”
           </p>
         </div>
 
-        <div
-          class="bg-[hsl(0,0%,100%)] rounded-2xl p-8 shadow-[12px_12px_2px_1px_rgba(149,149,150,0.2)]"
-        >
-          <div class="flex items-center">
+        <div class="card" id="jeanette_card">
+          <div class="col-start-1 col-end-3">
             <img
-              class="h-[40px] rounded-full mr-8"
+              class="h-[40px]"
               src="./images/image-jeanette.jpg"
               alt="picture of jeanette"
             />
             <div class="flex flex-col justify-center">
               <div>Jeanette Harmon</div>
-              <div class="opacity-50">Verified Graduate</div>
+              <div>Verified Graduate</div>
             </div>
           </div>
 
-          <p class="mt-5">An overall wonderful and rewarding experience</p>
+          <p>An overall wonderful and rewarding experience</p>
 
-          <p class="mt-5 opacity-70">
+          <p>
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I've made in myself. ”
           </p>
         </div>
 
-        <div
-          class="col-start-2 col-end-4 bg-[hsl(219,29%,14%)] text-white rounded-2xl p-8 shadow-[12px_12px_2px_1px_rgba(149,149,150,0.2)]"
-        >
-          <div class="flex items-center">
+        <div class="col-start-2 col-end-4">
+          <div class="col-start-1 col-end-3">
             <img
-              class="border-2 border-purple-500 h-[40px] rounded-full mr-8"
+              class="h-[40px]"
               src="./images/image-patrick.jpg"
               alt="picture of patrick"
             />
             <div class="flex flex-col justify-center">
               <div>Patrick Abrams</div>
-              <div class="opacity-50">Verified Graduate</div>
+              <div>Verified Graduate</div>
             </div>
           </div>
 
-          <p class="mt-5">
+          <p>
             Awesome teaching support from TAs who did the bootcamp themselves.
             Getting guidance from them and learning from their experiences was
             easy.
           </p>
 
-          <p class="mt-5 opacity-70">
+          <p>
             “ The staff seem genuinely concerned about my progress which I find
             really refreshing. The program gave me the confidence necessary to
             be able to go out in the world and present myself as a capable
@@ -143,26 +132,22 @@
           </p>
         </div>
 
-        <div
-          class="col-start-4 col-end-5 row-start-1 row-end-3 bg-[hsl(0,0%,100%)] rounded-2xl p-8 shadow-[12px_12px_2px_1px_rgba(149,149,150,0.2)]"
-        >
-          <div class="flex items-center">
+        <div class="col-start-4 col-end-5 row-start-1 row-end-3">
+          <div class="profile">
             <img
-              class="h-[40px] rounded-full mr-8"
+              class="h-[40px]"
               src="./images/image-kira.jpg"
               alt="picture of kira"
             />
-            <div class="flex flex-col justify-center">
+            <div>
               <div>Kira Whittle</div>
-              <div class="opacity-50">Verified Graduate</div>
+              <div>Verified Graduate</div>
             </div>
           </div>
 
-          <p class="mt-5">
-            Such a life-changing experience. Highly recommended!
-          </p>
+          <p>Such a life-changing experience. Highly recommended!</p>
 
-          <p class="mt-5 opacity-70">
+          <p>
             “ Before joining the bootcamp, I've never written a line of code. I
             needed some structure from professionals who can help me learn
             programming step by step. I was encouraged to enroll by a former
